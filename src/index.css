@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #fff;
+  transition: 0.3s all;
+  height: 100vh;
+}
+
+:root {
+  --primary-color: #fff;
+  --secondary-color: #92aa83;
+  --hover-color: #000;
+}

@@ -1,0 +1,94 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.title {
+  font-size: 4rem;
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+.clickOn-container {
+  position: relative;
+}
+
+.clickOn-container > div {
+  background-color: var(--secondary-color);
+  height: 19rem;
+  width: 19rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 4rem;
+  rotate: 45deg;
+}
+
+.clickOn-container > p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.userDetails-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: var(--secondary-color);
+}
+
+.user-image {
+  width: 15rem;
+  border-radius: 0.5rem;
+}
+
+.userDetails-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 10rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+button {
+  font-size: 1.5rem;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  background-color: var(--secondary-color);
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+button:hover {
+  background-color: var(--hover-color);
+  color: var(--secondary-color);
+}
